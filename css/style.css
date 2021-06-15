@@ -1,0 +1,177 @@
+*{
+    margin: 0;
+    padding: 0;
+    outline: 0;
+    word-break: break-all;
+    box-sizing: border-box;
+}
+
+html{
+
+    font-size: 100%;
+    line-height: 1.5;
+}
+
+body{
+    text-align: center;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    background-image: radial-gradient(circle, #FFF, #AAA)
+}
+
+a{
+    text-decoration: none;
+}
+
+li{
+    list-style: none;
+}
+
+
+
+main{
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    min-width: 320px;
+    width: 96%;
+    margin: 0 auto; 
+
+}
+
+main > div#container {
+    background-color: #9DD2EA;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px #009DE4;
+    font-size: 0;
+    width: 90%;
+
+}
+
+main > div#container .styleall{
+    display: inline-block;
+    vertical-align: middle;
+    padding: 10px;
+    font-size: initial;
+
+}
+
+main > div#container >p#scoreid {
+
+    width: 65%;
+    margin-right: 5%;
+    color: white;
+    font-weight: bold;
+    visibility: hidden;
+
+}
+
+main >div#container > aside#score{
+
+    color: #888E5F;
+    background-color: #F1FF92;
+    box-shadow: 0 4px #9DA853;
+
+}
+
+main >div#container >div#gameitself{
+
+    width: 80%;
+    margin: 0 auto;
+
+}
+
+main >div#container >div#gameitself > * {
+
+    width: 100%;
+    margin-top: 10px;
+
+}
+
+main > div#container > div#gameitself > section#numberstomultiply{
+    background-color: #9DA0EA;
+    box-shadow: 0 4px #535AA8;
+    font-size: 6.250rem;
+    height: 170px;
+}
+
+main > div#container > div#gameitself > p#instruction{
+    background-color: #B481D9;
+    box-shadow: 0 4px #8153A8;
+
+}
+
+main > div#container >div#gameitself > ul#options >li, main > div#container >button#start_reset{
+    border-radius: 5px;
+    cursor: pointer;
+    box-shadow: 0 4px rgba(0, 0, 0, 0.2);
+    transition: box-shadow transform 0.2s;
+}
+
+main > div#container > div#gameitself >ul#options > li{
+    
+    width: 150px;
+    background-color: white;
+    display: inline-block;
+    padding: 10px;
+    height: 70px;
+    margin-right: 10px;
+    margin-left: 30px; 
+ 
+}
+
+main > div#container >div#gameitself > ul#options > li:active,main > div#container >button#start_reset:active{
+    color: white;
+    background-color: rgb(230, 119, 193);
+    box-shadow: 0 0 rgb(155, 30, 149);
+    transform: translateY(4px);
+}
+
+main > div#container >button#start_reset{
+    background-color: rgba(255, 255, 255, 0.5);
+    border: 0;
+    margin: 10px auto;
+    line-height: 1.5;
+    display: block;
+    
+}
+
+main > div#container >aside#timechecker{
+    background-color: rgba(181, 235, 36, 0.8);
+    border-radius: 5px;
+    box-shadow: 0 4px rgba(0, 0, 0, 0.2);
+    visibility: hidden;
+}
+
+main > div#endofgame{
+    color: white;
+    background-image: linear-gradient(#F3CA6B, #F3706C);
+    font-size: 3rem;
+    text-transform: uppercase;
+    position: absolute;
+    padding: 20px;
+    min-width: 250px;
+    display: none;
+}
+
+
+
+
+
+  
+
+
+
+
+
+
+
+    
+
+
+
+
+
+
